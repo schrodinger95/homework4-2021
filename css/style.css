@@ -31,9 +31,10 @@ body{
   background-size: cover ;
   background-position: center;
   /*Req 1*/
-  font-family: Andika, sans-serif;
+  font-family: 'Andika', sans-serif;
   background-color:  #DDDDDD;
   background-image: url('../images/pigeon-background.JPEG');
+  background-repeat: no-repeat;
 }
 
 h1{
@@ -80,6 +81,7 @@ td{
 
 .rowhead{
   border-top: 2px solid #000000;
+  border-right: 2px solid #000000;
   padding: 10px;
   text-align: center;
 }
@@ -130,4 +132,5 @@ footer{
   color: #FFFFFF;
   position: fixed;
   bottom: 0;
+  left: 0;
 }
